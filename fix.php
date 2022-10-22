@@ -1,9 +1,9 @@
-<?php
+<?
 class AxisAPI
 {
 	//function untuk kirim otp
 	function SendOTP($nomor){
-		$url="https://raw.githubusercontent.com/sancan25/file/main/otp";
+		$url="https://wdcloudssh.net/api/new/axis/otp";
 		$data=array("msisdn"=> $nomor);
 
 		$curl = curl_init();
@@ -16,7 +16,7 @@ class AxisAPI
 	}
 	//function untuk login
 	function sendLogin($nomor, $otp){
-		$url="https://raw.githubusercontent.com/sancan25/file/main/login";
+		$url="https://wdcloudssh.net/api/new/axis/login";
 		$data=array("msisdn" => $nomor, "otp"=> $otp);
 
 		$curl = curl_init();
@@ -29,7 +29,7 @@ class AxisAPI
 	}
 	// Fungsi buy package
 	function getBuyPackageV2($token, $pkgid){
-		$url="https://raw.githubusercontent.com/sancan25/file/main/package";
+		$url="https://wdcloudssh.net/api/axis/package";
 		$data=array("token"=> $token, "pkgid" => $pkgid);
 
 		$curl = curl_init();
@@ -45,7 +45,7 @@ class AxisAPI
 	{
 		$curl = curl_init();
 		curl_setopt_array($curl, array(
-		CURLOPT_URL => 'https://raw.githubusercontent.com/sancan25/file/main/list',
+		CURLOPT_URL => 'https://wdcloudssh.net/api/axis/package/list',
 		CURLOPT_RETURNTRANSFER => true,
 		CURLOPT_ENCODING => '',
 		CURLOPT_MAXREDIRS => 10,
@@ -62,7 +62,7 @@ class AxisAPI
 
 	function getBalance($auth)
 	{
-		$url="https://raw.githubusercontent.com/sancan25/file/main/getbalance";
+		$url="https://wdcloudssh.net/api/new/axis/getbalance";
 		$data=array("token" => $auth);
 
 		$curl = curl_init();
@@ -105,8 +105,8 @@ if (@fopen('auth.txt', 'r')) {
 	profile:
 	echo "\n";
 	echo "$blue ============================\n";
-	echo "$White 🧟 Nama\t : sancan \n";
-	echo "$White 🧟 Tanggal\t : ".date('Y-m-d')." \n";
+	echo "$White 🌀 Nama\t : Gugun09 \n";
+	echo "$White 🌀 Tanggal\t : ".date('Y-m-d')." \n";
 	echo "$blue ============================\n";
 
 	repeat_msisdn:
@@ -157,10 +157,10 @@ function BuyPackage()
 	$getBalance = $axis->getBalance(trim($axis->authToken()));
 	$result = json_decode($getBalance, true);
 	$data = json_decode($result['data'], true);
-	echo "$White 🧟 No\t\t : " . "" .$data['msisdn']. "" . "\n";
-	echo "$White 🧟 Auth Token\t : " . "" . trim($axis->authToken()) . "" . "\n";
-	echo "$White 🧟 Balance\t : " . "Rp. ". number_format($data['result']['balance'], 0,',','.')."" . "\n";
-	echo "$White 🧟 Exp\t\t : " . "". $data['result']['activestopdate']."" . "\n\n";
+	echo "$White 🌀 No\t\t : " . "" .$data['msisdn']. "" . "\n";
+	echo "$White 🌀 Auth Token\t : " . "" . trim($axis->authToken()) . "" . "\n";
+	echo "$White 🌀 Balance\t : " . "Rp. ". number_format($data['result']['balance'], 0,',','.')."" . "\n";
+	echo "$White 🌀 Exp\t\t : " . "". $data['result']['activestopdate']."" . "\n\n";
 	echo "$Yellow"."【+】Daftar Kuota Harian: \n";
 
 	$daftar = $axis->getListPackageV2();
@@ -189,4 +189,3 @@ if ( $logout !== 'y' ) {
 	goto repeat_quota;
 }
 echo "\n";
-?>
