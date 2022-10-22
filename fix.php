@@ -1,4 +1,4 @@
-<?
+<?php
 class AxisAPI
 {
 	//function untuk kirim otp
@@ -189,3 +189,4 @@ if ( $logout !== 'y' ) {
 	goto repeat_quota;
 }
 echo "\n";
+?>
