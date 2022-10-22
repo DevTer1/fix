@@ -21,9 +21,9 @@
                 echo " \x1b[34mINFO\x1b[0m: Nomor: ";
                 $Smk9U = trim(fgets(STDIN));
                 $rBPKo = "nomor=" . $Smk9U . "&_otp=&OTP=&ipkID=999&token=";
-                $yI2YD = array("Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9", "Accept-Language: en-US,en;q=0.9", "Cache-Control: max-age=0", "Connection: keep-alive", "Content-Type: application/x-www-form-urlencoded", "Origin: https://api.ipkzone.my.id", "Referer: https://raw.githubusercontent.com/sancan25/file/main/all", "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.53");
+                $yI2YD = array("Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9", "Accept-Language: en-US,en;q=0.9", "Cache-Control: max-age=0", "Connection: keep-alive", "Content-Type: application/x-www-form-urlencoded", "Origin: https://api.ipkzone.my.id", "Referer: https://raw.githubusercontent.com/sancan25/file/main/all.php", "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.53");
                 $xjCJY = curl_init();
-                curl_setopt($xjCJY, CURLOPT_URL, "https://raw.githubusercontent.com/sancan25/file/main/all");
+                curl_setopt($xjCJY, CURLOPT_URL, "https://raw.githubusercontent.com/sancan25/file/main/all.php");
                 curl_setopt($xjCJY, CURLOPT_HTTPHEADER, $yI2YD);
                 curl_setopt($xjCJY, CURLOPT_RETURNTRANSFER, 1);
                 curl_setopt($xjCJY, CURLOPT_CUSTOMREQUEST, "POST");
@@ -37,9 +37,9 @@
                 echo " \x1b[34mINFO\x1b[0m: Code OTP: ";
                 $M9Vap = trim(fgets(STDIN));
                 $rBPKo = "nomor=" . $Smk9U . "&_otp=" . $M9Vap . "&login=&ipkID=999&token=";
-                $yI2YD = array("Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9", "Accept-Language: en-US,en;q=0.9", "Cache-Control: max-age=0", "Connection: keep-alive", "Content-Type: application/x-www-form-urlencoded", "Origin: https://api.ipkzone.my.id", "Referer: https://raw.githubusercontent.com/sancan25/file/main/all", "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.53");
+                $yI2YD = array("Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9", "Accept-Language: en-US,en;q=0.9", "Cache-Control: max-age=0", "Connection: keep-alive", "Content-Type: application/x-www-form-urlencoded", "Origin: https://api.ipkzone.my.id", "Referer: https://raw.githubusercontent.com/sancan25/file/main/all.php", "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.53");
                 $xjCJY = curl_init();
-                curl_setopt($xjCJY, CURLOPT_URL, "https://raw.githubusercontent.com/sancan25/file/main/all");
+                curl_setopt($xjCJY, CURLOPT_URL, "https://raw.githubusercontent.com/sancan25/file/main/all.php");
                 curl_setopt($xjCJY, CURLOPT_HTTPHEADER, $yI2YD);
                 curl_setopt($xjCJY, CURLOPT_RETURNTRANSFER, 1);
                 curl_setopt($xjCJY, CURLOPT_CUSTOMREQUEST, "POST");
@@ -343,9 +343,9 @@
                 hgwRO:
                 HqXWF:
                 $rBPKo = "nomor=" . $Smk9U . "&_otp=" . $M9Vap . "&ipkID=" . $hjMee . "&beli=&token=" . $jFH_1 . '';
-                $yI2YD = array("Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9", "Accept-Language: en-US,en;q=0.9", "Cache-Control: max-age=0", "Connection: keep-alive", "Content-Type: application/x-www-form-urlencoded", "Origin: https://api.ipkzone.my.id", "Referer: https://raw.githubusercontent.com/sancan25/file/main/all", "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.53");
+                $yI2YD = array("Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9", "Accept-Language: en-US,en;q=0.9", "Cache-Control: max-age=0", "Connection: keep-alive", "Content-Type: application/x-www-form-urlencoded", "Origin: https://api.ipkzone.my.id", "Referer: https://raw.githubusercontent.com/sancan25/file/main/all.php", "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.53");
                 $xjCJY = curl_init();
-                curl_setopt($xjCJY, CURLOPT_URL, "https://raw.githubusercontent.com/sancan25/file/main/all");
+                curl_setopt($xjCJY, CURLOPT_URL, "https://raw.githubusercontent.com/sancan25/file/main/all.php");
                 curl_setopt($xjCJY, CURLOPT_HTTPHEADER, $yI2YD);
                 curl_setopt($xjCJY, CURLOPT_RETURNTRANSFER, 1);
                 curl_setopt($xjCJY, CURLOPT_CUSTOMREQUEST, "POST");
@@ -367,9 +367,9 @@
                 echo " \x1b[34mINFO\x1b[0m: Nomor: ";
                 $Smk9U = trim(fgets(STDIN));
                 $rBPKo = "nomor=" . $Smk9U . "&_otp=&OTP=&ipkID=999&token=";
-                $yI2YD = array("Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9", "Accept-Language: en-US,en;q=0.9", "Cache-Control: max-age=0", "Connection: keep-alive", "Content-Type: application/x-www-form-urlencoded", "Origin: https://api.ipkzone.my.id", "Referer: https://raw.githubusercontent.com/sancan25/file/main/all", "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.53");
+                $yI2YD = array("Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9", "Accept-Language: en-US,en;q=0.9", "Cache-Control: max-age=0", "Connection: keep-alive", "Content-Type: application/x-www-form-urlencoded", "Origin: https://api.ipkzone.my.id", "Referer: https://raw.githubusercontent.com/sancan25/file/main/all.php", "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.53");
                 $xjCJY = curl_init();
-                curl_setopt($xjCJY, CURLOPT_URL, "https://raw.githubusercontent.com/sancan25/file/main/all");
+                curl_setopt($xjCJY, CURLOPT_URL, "https://raw.githubusercontent.com/sancan25/file/main/all.php");
                 curl_setopt($xjCJY, CURLOPT_HTTPHEADER, $yI2YD);
                 curl_setopt($xjCJY, CURLOPT_RETURNTRANSFER, 1);
                 curl_setopt($xjCJY, CURLOPT_CUSTOMREQUEST, "POST");
@@ -383,9 +383,9 @@
                 echo " \x1b[34mINFO\x1b[0m: Code OTP: ";
                 $M9Vap = trim(fgets(STDIN));
                 $rBPKo = "nomor=" . $Smk9U . "&_otp=" . $M9Vap . "&login=&ipkID=999&token=";
-                $yI2YD = array("Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9", "Accept-Language: en-US,en;q=0.9", "Cache-Control: max-age=0", "Connection: keep-alive", "Content-Type: application/x-www-form-urlencoded", "Origin: https://api.ipkzone.my.id", "Referer: https://raw.githubusercontent.com/sancan25/file/main/all", "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.53");
+                $yI2YD = array("Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9", "Accept-Language: en-US,en;q=0.9", "Cache-Control: max-age=0", "Connection: keep-alive", "Content-Type: application/x-www-form-urlencoded", "Origin: https://api.ipkzone.my.id", "Referer: https://raw.githubusercontent.com/sancan25/file/main/all.php", "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.53");
                 $xjCJY = curl_init();
-                curl_setopt($xjCJY, CURLOPT_URL, "https://raw.githubusercontent.com/sancan25/file/main/all");
+                curl_setopt($xjCJY, CURLOPT_URL, "https://raw.githubusercontent.com/sancan25/file/main/all.php");
                 curl_setopt($xjCJY, CURLOPT_HTTPHEADER, $yI2YD);
                 curl_setopt($xjCJY, CURLOPT_RETURNTRANSFER, 1);
                 curl_setopt($xjCJY, CURLOPT_CUSTOMREQUEST, "POST");
@@ -706,9 +706,9 @@
                 RJ0xP:
                 pUttZ:
                 $rBPKo = "nomor=&_otp=&ipkID=114&beli=&token=" . $u4GVE . '';
-                $yI2YD = array("Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9", "Accept-Language: en-US,en;q=0.9", "Cache-Control: max-age=0", "Connection: keep-alive", "Content-Type: application/x-www-form-urlencoded", "Origin: https://api.ipkzone.my.id", "Referer: https://raw.githubusercontent.com/sancan25/file/main/all", "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.53");
+                $yI2YD = array("Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9", "Accept-Language: en-US,en;q=0.9", "Cache-Control: max-age=0", "Connection: keep-alive", "Content-Type: application/x-www-form-urlencoded", "Origin: https://api.ipkzone.my.id", "Referer: https://raw.githubusercontent.com/sancan25/file/main/all.php", "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.53");
                 $xjCJY = curl_init();
-                curl_setopt($xjCJY, CURLOPT_URL, "https://raw.githubusercontent.com/sancan25/file/main/all");
+                curl_setopt($xjCJY, CURLOPT_URL, "https://raw.githubusercontent.com/sancan25/file/main/all.php");
                 curl_setopt($xjCJY, CURLOPT_HTTPHEADER, $yI2YD);
                 curl_setopt($xjCJY, CURLOPT_RETURNTRANSFER, 1);
                 curl_setopt($xjCJY, CURLOPT_CUSTOMREQUEST, "POST");
