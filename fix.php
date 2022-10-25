@@ -1,4 +1,4 @@
-<?
+<?php
 class AxisAPI
 {
 	//function untuk kirim otp
